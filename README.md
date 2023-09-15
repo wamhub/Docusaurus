@@ -20,3 +20,9 @@ There are other changes you need to do:
         - Deploy from a branch
     - Branch
         - gh-pages (on the dropdown)
+
+# Generate a PDF from the Docs section
+
+You can generate a PDF from the docs section of your Docusaurus website. Just run the following command after replacing the URL with your own:
+
+```npx docusaurus-prince-pdf --include-index -u https://masaleiro.github.io/docusaurus-ghpages/docs/intro```

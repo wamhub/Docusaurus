@@ -25,4 +25,12 @@ There are other changes you need to do:
 
 You can generate a PDF from the docs section of your Docusaurus website. Just run the following command after replacing the URL with your own:
 
-```npx docusaurus-prince-pdf --include-index -u https://masaleiro.github.io/docusaurus-ghpages/docs/intro```
+```
+npx docusaurus-prince-pdf --include-index -u https://masaleiro.github.io/docusaurus-ghpages/docs/intro
+```
+
+Another alternative is using [Docs-to-pdf](https://github.com/jean-humann/docs-to-pdf) with the following command as example:
+
+```
+npx docs-to-pdf --initialDocURLs="https://masaleiro.github.io/docusaurus-ghpages/docs/intro" --contentSelector="article" --paginationSelector="a.pagination-nav__link.pagination-nav__link--next" --excludeSelectors=".margin-vert--xl a,[class^='tocCollapsible'],.breadcrumbs,.theme-edit-this-page" --coverImage="https://docusaurus.io/img/docusaurus.png" --coverTitle="Docusaurus v2" --pdfMargin="40,60,70,80"
+```

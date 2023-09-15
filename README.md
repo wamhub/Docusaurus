@@ -1,41 +1,22 @@
-# Website
+# Docusaurus on Github Pages
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+This is a demo repo to allow for a fast setup of Docusaurus on Github pages
 
-### Installation
+# Instructions
 
-```
-$ yarn
-```
+To begin with this repository you have two options:
+- (a) Fork this repository. When you do it, make sure you fork all branches, not only main. Github Actions need the "gh-pages" branch to deploy the site.
+- (b) Clone it to your local filesystem, create a new repository on your github account and push it there. Upon pushing the github actions should trigger and create the gh-pages branch. If it doesn't, make a small change to this file and push it again.
 
-### Local Development
+There are other changes you need to do: 
 
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+- Github Actions need to be enabled (Settings -> Actions -> General)
+    - Actions permissions:
+        - Allow all actions and reusable workflows
+    - Workflow permissions:
+        - Read and write permissions
+- Github Pages must also be enabled (Settings -> Pages)
+    - Source
+        - Deploy from a branch
+    - Branch
+        - gh-pages (on the dropdown)

@@ -12,6 +12,14 @@ Have **5 more minutes**? Take a look at **[versioning](../tutorial-extras/manage
 
 Anything **unclear** or **buggy** in this tutorial? [Please report it!](https://github.com/facebook/docusaurus/discussions/4610)
 
+Here's a demo on how to add a table:
+
+|Header      |Header         |Header   |
+|------------|---------------|---------|
+|Content     |Content        |Content  |
+|Content     |`Code content` |*Italic*  |
+|Content     |Content        |Content  |
+
 ## What's next?
 
 - Read the [official documentation](https://docusaurus.io/)

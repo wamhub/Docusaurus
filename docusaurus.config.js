@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Test Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Oficina Juelmo',
+  tagline: 'A melhor oficina de Portugal',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -18,7 +18,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'masaleiro', // Usually your GitHub org/user name.
+  organizationName: 'Martim e Lucas', // Usually your GitHub org/user name.
   projectName: 'docusaurus-ghpages', // Usually your repo name.
   deploymentBranch: 'gh-pages',
 

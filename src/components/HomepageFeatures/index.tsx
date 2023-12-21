@@ -10,32 +10,32 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Nosso Objeitvo',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Aqui na oficina Juelmo prometemos ter o melhor serviço
+          pós venda e ajudar sempre o cliente a ter a melhor
+          experiência possível
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Os nossos produtos e serviços',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Áudio, Multimédia, Assistentes de condução, Serviços de oficina e
+          Baterias para carro,
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Onde nos localizamos',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        A nossa oficina encontra-se na Rua Alberta José da Malha nº 67, 8147-203
       </>
     ),
   },
